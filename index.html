@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Refresh Me</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="./images/dice6.png" />
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="./images/dice6.png" />
+      </div>
+    </div>
+
+    <footer>www 🎲 App Brewery 🎲 com</footer>
+
+    
+    <script src="index.js"></script>
+  </body>
+</html>
+<!-- // Generate random number for Player 1
+let randomNumber1 = Math.floor(Math.random() * 6) + 1;
+console.log("Random number for Player 1:", randomNumber1);
+
+// Set the image source for Player 1's dice
+let randomDiceImage1 = `images/dice${randomNumber1}.png`; // Correctly uses template literal
+document.querySelector(".img1").setAttribute("src", randomDiceImage1);
+
+// Generate random number for Player 2
+let randomNumber2 = Math.floor(Math.random() * 6) + 1;
+console.log("Random number for Player 2:", randomNumber2);
+
+// Set the image source for Player 2's dice
+let randomDiceImage2 = `images/dice${randomNumber2}.png`; // Correctly uses template literal
+document.querySelector(".img2").setAttribute("src", randomDiceImage2);
+
+// Update the heading based on the results
+let header = document.querySelector("h1");
+if (randomNumber1 > randomNumber2) {
+  header.textContent = "🚩 Player 1 Wins!";
+} else if (randomNumber1 < randomNumber2) {
+  header.textContent = "Player 2 Wins! 🚩";
+} else {
+  header.textContent = "It's a Draw!";
+} -->
+
